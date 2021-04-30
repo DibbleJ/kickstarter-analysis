@@ -12,9 +12,13 @@ The purpose of this analysis is to provide playwright Louise with the informatio
 
 One of the factors being considered for successful theater campaigns is launch date. In order to convert the orifinal Unix date code into a readable date, this formula was applied to it: "(((L2/60)/60)/24)+DATE(1970,1,1)". Looking at the Theater_Outcomes_vs_Launch.png, we can see that the most successful time to launch a campaign is in the early summer (May and June) with earlier being better. These months have a much better ratio of success (# of successful campaigns / # of failed campaigns) [>200%] compared to other months. This means that she will be twice as likely to succeed rather than fail. The worst month to start a campaign is in December with a 106% success ratio. This means that she has basically a 50/50 chance of running a successful campaign.
 
+![Timeline Outcomes](https://user-images.githubusercontent.com/40553064/116736753-eb7dd880-a9b5-11eb-9a0f-579cd49c2465.png)
+
 ### Analysis of Outcomes Based on Goals
 
-Another factor considered is Goal amount. By stratifying the different goals, we can see that generally, campaigns with larger goals are more likely to fail. The more she can trim down her budget, the more likely she is to be able to successfully complete her campaign.
+Another factor considered is Goal amount. By stratifying the spectrum of goals, we can see that generally, campaigns with larger goals are more likely to fail. The more she can trim down her budget, the more likely she is to be able to successfully fund her campaign. 
+
+![Outcomes_vs_Goals](https://user-images.githubusercontent.com/40553064/116736352-61ce0b00-a9b5-11eb-8516-b1fe3b0f0900.png)
 
 ### Challenges and Difficulties Encountered
 
